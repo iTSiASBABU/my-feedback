@@ -120,7 +120,7 @@ async def start(bot, message):
     ban_duration = ban_status['ban_duration']
     ban_reason = ban_status['ban_reason']
     if is_banned is True:
-        await message.reply_text(f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the admin 🤠**")
+        await message.reply_text(f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the iASBABU 🤠**")
         return
       
     await bot.send_message(
@@ -152,7 +152,7 @@ async def help(bot, message):
     ban_duration = ban_status['ban_duration']
     ban_reason = ban_status['ban_reason']
     if is_banned is True:
-        await message.reply_text(f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the admin 🤠**")
+        await message.reply_text(f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the iASBABU 🤠**")
         return
       
     await message.reply_text(
@@ -181,7 +181,7 @@ async def donate(bot, message):
     ban_duration = ban_status['ban_duration']
     ban_reason = ban_status['ban_reason']
     if is_banned is True:
-        await message.reply_text(f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the admin 🤠**")
+        await message.reply_text(f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the iASBABU 🤠**")
         return
         
     await message.reply_text(
@@ -266,7 +266,7 @@ async def ban(c, m):
         try:
             await c.send_message(
                 user_id,
-                f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the admin 🤠**",
+                f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the iASBABU 🤠**",
             )
             ban_log_text += "\n\nUser notified successfully!"
         except BaseException:
@@ -364,7 +364,7 @@ async def pm_text(bot, message):
     ban_duration = ban_status['ban_duration']
     ban_reason = ban_status['ban_reason']
     if is_banned is True:
-        await message.reply_text(f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the admin 🤠**")
+        await message.reply_text(f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the iASBABU 🤠**")
         return
       
     if message.from_user.id == owner_id:
@@ -396,7 +396,7 @@ async def pm_media(bot, message):
     ban_duration = ban_status['ban_duration']
     ban_reason = ban_status['ban_reason']
     if is_banned is True:
-        await message.reply_text(f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the admin 🤠**")
+        await message.reply_text(f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the iASBABU 🤠**")
         return
       
     if message.from_user.id == owner_id:
