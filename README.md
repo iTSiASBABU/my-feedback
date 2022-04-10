@@ -1,7 +1,6 @@
 # Feedback-Bot  
 
   <b>Hey, This Is [Feedback Bot](/) Made By Using Python And Pyrogram Framework
- This is enovation of [AkKiL](https://github.com/HeimanPictures/HeimanPictures/) 😇.
 
   This Bot Works Like Independent @LivegramBot, But With Extra Command And Even Logs Of The User Who Have Used Start Command Of The Bot... 
 
